@@ -35,7 +35,7 @@ export function HeroSection({ data }: Readonly<HeroSectionProps>) {
         alt="Background"
         className="absolute inset-0 object-cover w-full h-full"
         height={1080}
-        src={image?.data?.[0]?.url} 
+        src={image.url} 
         width={1920}
       />
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white bg-black bg-opacity-20">
